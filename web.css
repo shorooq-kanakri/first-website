@@ -187,8 +187,101 @@ color: #455a60;
 }
 
 
+
 @media screen and (min-width:375px) and (max-width:667px){
- .navpar
-    
+
+ .navpar{
+    width:100%;
+    font-size: 8px;
+    padding: 10px 5px;
+}
+.logo{
+    font-weight: 15;
+    font-size: 10px;
+    margin-left:10px ;
+ }
+ .Navigation a{
+    font-size: 8px;
+    font-weight: 50;
+    padding-left: 15px;
+    margin: 10px;
+}
+.main{
+    background: none;
+    background-color: #e0621e84;
+
+}
+.main h1{
+    font-size: 17PX;
+    font-weight: 50;
+} 
+.main p{
+    margin-right: 15%;
+    font-size: 7px;
+}
+.main h4{
+    font-size: 12PX;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.CV{
+    font-size: 5px;
+    padding: 7px;
+
+}
+.title{
+
+    font-size: 25px;
+    font-weight: 50;
+    margin-bottom: 5px;
 }
 
+.card{
+ 
+    background-color: #f07f4284;
+    width: 10em;
+    border-radius: 5px;
+    padding: 5px;
+    margin:5px ;
+}
+.icon{
+    font-size: 1em;
+}
+
+.info h3{
+    font-size: .25;
+    text-align: center;
+    font-weight: 100;
+    margin: 5px;
+}
+
+.PROJECTS .content{
+    margin-top: 3%;
+}
+.project-card{
+    min-height: 7em;
+    width: 300px;
+    margin: 20px;
+}
+.project-image img{
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+}
+.skills-card{
+    width: 10em;
+    border-radius: 5px;
+    padding: 10px;
+    margin:5px ;
+}
+.title-footer{
+    font-weight: 100;
+    font-size: .5em;
+    padding-bottom: 5px;  
+}
+.footer-icons a{
+font-size:1em; 
+
+}
+}
