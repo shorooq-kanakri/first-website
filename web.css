@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
 *{
     margin: 0;
@@ -12,18 +13,19 @@
     position: fixed;
     z-index: 999;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 20px 100px;
 }
 .logo{
     text-decoration: none;
     color:#F9F5F5 ;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 26px;
+    font-size: 30px;
+    font-family: 'Mr Dafoe', cursive;
 }
 .Navigation a{
     text-decoration: none;
@@ -50,15 +52,14 @@ section{
 .main h1{
     font-family: 'Fasthand', cursive;
     color: #f6ecec;
-    font-size: 1.4em;
-    font-weight: 600 ;
+    font-size: 50PX;
+    font-weight: 400 ;
     
 }
 .main h4{
     color: #f6ecec;
-
-    font-size: 1em;
-    font-weight: 500;
+    font-size: 25PX;
+    font-weight: 400;
     margin-bottom: 20px;
     margin-left: 20px;
 }
@@ -67,8 +68,12 @@ section{
     margin-right: 40%;
 }
 .CV{
+    background-color: rgb(243, 214, 214);
     text-decoration: none;
-    font-size: large;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+
 }
 
 .title{
@@ -101,6 +106,7 @@ section{
 }
 .info{
     text-align:center ;
+   color:  #455a60 ;
 }
 
 .info h3{
@@ -120,8 +126,8 @@ section{
     color: #455a60;
     background-color: #f3e5e5;
     border: 1px solid  rgb(205, 208, 216);
-    min-height: 14em;
-    width: 15em ;
+    min-height: 15em;
+    width: 16em ;
     border-radius:20px ;
     margin: 20px;
     text-align: center;
@@ -131,66 +137,58 @@ section{
     height: 200px;
     border: 1px solid white;
     border-radius: 20px;
-
-   
+}
+.skills-card{
+    background-color: #f07f4284;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    color: #455a60;
+    border-radius: 10px;
+    padding: 25px;
+    margin:15px ;
+    
+}
+.skills-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;   
 }
 
-.project-info{
-    padding: 1em;
-}
-
-.content table{
-    text-align: center;
-}
 
 footer{
     background-color: #9FB0C8;
+    color: #615888;
 }
-.title-cars{
+
+.footer-contacts{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}    
+.footer-con{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title-footer{
     text-align: center;
     color:#F9F5F5 ;
     font-weight: 600;
-    font-size: 1.8em;
-    
+    font-size: 2em;
+    padding-bottom: 10px;  
 }
-.content .icons{
-    font-size:3em ;
-    text-align: center;
-    color:#455a60 ;
-    padding: 1px;
+.footer-icons a{
+font-size:2.5em; 
+color: #455a60;
 }
 
-.car{
-    background: #f6ecec;
-    color: #455a60;
-    border-radius: 10px;
-    width: 15em ;
-    margin: 5px;
-    text-align: center;
-    /* padding: 5px;  */
-} 
-.cars{
-    background-color: #9FB0C8;
-    color: #f6ecec;
-    /* padding: 2em; */
+
+@media screen and (min-width:375px) and (max-width:667px){
+ .navpar
     
 }
-.footer{
-    background-color: #9FB0C8;
-    color: #615888;
-    text-align: center;
-}
-.social-icons a {
-   font-size:1.7em; 
-   color: #615888;
- 
-}
-@media (max-width: 1024px) and (max-height: 700px) {
-    .header {
-       position: fixed;
-       left: 0;
-       top: 0;
-       bottom: 0;
-    
-    }
-   } 
+
